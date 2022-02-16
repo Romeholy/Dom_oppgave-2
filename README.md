@@ -1,6 +1,6 @@
 # Dom_oppgave-2
 
-oppgave-1
+# oppgave-1
 document.getElementById('skrivUt').addEventListener('click', function() {
 
 const celsiusToFahrenheit = celsius => celsius * 9/5 + 32;
@@ -11,7 +11,7 @@ const fahrenheitToCelsius = fahrenheit => (fahrenheit - 32) * 5/9;
 celsiusToFahrenheit(15);    // 59
 fahrenheitToCelsius(59);    // 15
 });
-oppgave-2
+# oppgave-2
 document.getElementById('skrivUt').addEventListener('click', function() {
     let tallet1 = document.getElementById("tall1").value;
     let tallet2 = document.getElementById("tall2").value;
@@ -30,7 +30,7 @@ document.getElementById('skrivUt').addEventListener('click', function() {
    console.log('Not matched, the number was '+gnum);
 });
 
-oppgave-3
+# oppgave-3
 
 
 function checkPalindrome(str) {
